@@ -1,4 +1,6 @@
-# Docker로 Nginx와 PHP 쉽게 설정하는 방법
+# README
+
+Docker로 Nginx와 PHP 환경을 빠르게 구성하는 방법을 소개하며 [Docker](https://www.docker.com/)가 설치되어 있어야합니다.
 
 - [참고사이트](http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm/)
 
@@ -25,7 +27,19 @@
   ```
 
   # 실행
+  
+  자세한 설명은 `docker-compose --help`
 
   ```bash
+  # container 생성 및 실행
   $ docker-compose up
+
+  # container 실행
+  $ docker-compose start
+  
+  # container 중단
+  $ docker-compose stop
+  
+  # container 삭제
+  $ docker-compose down
   ```
